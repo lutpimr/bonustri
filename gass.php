@@ -80,7 +80,7 @@ $headers[] = "Connection: close";
 $headers[] = "Referer: http://bonstri.tri.co.id/voucherku";
 $headers[] = "Cookie: _ga=GA1.3.2053671532.1587780555; _gid=GA1.3.888559198.1587780555; TS0100d305=0162c9cb49e0d157a2c80ae96556c73d3bea058f3c536b787d6659d580e73a70a6f3a02af9a84533df5bea7f93242a4490a524d4b3; _gat_gtag_UA_128593534_1=1";
 $gettrx = request($url, $data, $headers);
-$trxid = getstr($gettrx, 'GB 1 Hari (Jam 01:00 - 12:00)","rewardTransactionId":"','"');
+$trxid = getstr($gettrx, 'GB 30 Hari","rewardTransactionId":"','"');
 
 tembak:
 echo "[?] Tembak Berapa : ";
